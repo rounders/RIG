@@ -10,6 +10,8 @@ class Item
 "Searing","Cold","Singing","Stalwart","Dastardly","Dusty","Sparking","Charged","Thunderbolt","Icy","Frosty","Chilly","Acidic","Poisonous","Venomous",
 "Toxic","Radiant","Solar","Lunar","Deadly","Haunting","Spooky","Rusted","Depressed","Alluring","Valorous","Strong","Hardy","Luminous","Furious",
 "Unfortunate","Disgusting","Quentin's","Vine","Grass","Waxed","Powerful","Nimble","Lustrous","Sparkling"]
+   
+   
     
   WEAPON_NAMES = ["Massive","Mate","Blade","Sword","Axe","Crossbow","Bow",
 "Broadsword","Greatbow","Hand Cannon","Destructor","Bludgeoner","Flail","Heavy Flail","Morning Star","Greatsword","Bastard Sword",
@@ -25,7 +27,7 @@ class Item
 "R.Y.N.O","Hand-crank Drill","Claw Blades","Ham Shank","Flamethrower","Nailgun","Kusarigama","Sai","Dictionary","Thesaurus","Black eggs",
 "Wrench","Combuster","Buzz Blades","Boxing Gloves","Wrist-blades","Handheld Bomb Catapult","Gatlingbow","Hunting Knife","Army Knife",
 "Shrapnel Cannon","Spice Bomb Launcher","Blitz Gun","Chopper","Bladed Chakram","Stake launcher","Boomerang","Lunarang",
-"Heavy Chakram","Railgun","Beamblade","Damb","Trench Shovel"]
+"Heavy Chakram","Railgun","Beamblade","Damb","Trench Shovel","Javelin"]
 
   def random_prefix
     @prefix = PREFIX_NAMES.sample #Selects a single name from the PREFIX_NAMES array
