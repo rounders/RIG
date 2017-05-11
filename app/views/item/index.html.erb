@@ -3,14 +3,11 @@
 <h3>Designed to create items, with some difference in rarity</h3>
 
 <div>
-  <div style="background-color: <%= @colouritem1 %>;"  class="top-margin display-block text-center" id="item1"><h5 class="item"><%= @item1 %></h5></div>
-
-  <div style="background-color: <%= @colouritem2 %>;" class="top-margin display-block text-center" id="item2"><h5 class="item"><%= @item2 %></h5></div>
-
-  <div style="background-color: <%= @colouritem3 %>;" class="top-margin display-block text-center" id="item3"><h5 class="item"><%= @item3 %></h5></div>
-
-  <div style="background-color: <%= @colouritem4 %>;" class="top-margin display-block text-center" id="item4"><h5 class="item"><%= @item4 %></h5></div>
+<% for item in @items %>
+  <div style="background-color: <%= item.colour %>;"  class="top-margin display-block text-center" id="item1"><h5 class="item"><%= item.description %></h5></div>
+<% end  %>
 </div>
+
 
 
 <h6>Are you threatening me Master Jedi?</h6>
